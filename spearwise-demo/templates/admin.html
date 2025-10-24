@@ -1,0 +1,14 @@
+<!doctype html>
+<html><body style="font-family:Arial;max-width:900px;margin:20px auto">
+<h2>Admin — Click Activity</h2>
+<table border="1" cellpadding="6">
+<tr><th>User</th><th>Email</th><th>Role</th><th>Time (UTC)</th></tr>
+{% for r in rows %}
+<tr><td>{{ r[0] }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ r[3] }}</td></tr>
+{% endfor %}
+</table>
+</body></html>
+
+
+
+

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Security Lesson</title></head>
+<body style="font-family:Arial;max-width:700px;margin:40px auto;">
+  <h2>Heads up — this was a simulated spear-phish test</h2>
+  <p>Hi {{ user }}, you clicked a simulated message crafted to look like something someone in <strong>{{ role }}</strong> would get.</p>
+  <h3>Why it looked real</h3>
+  <ul>
+    <li>It used a role-specific context (payroll/engineering)</li>
+    <li>Urgent language that pressures quick action</li>
+    <li>Sender address could be spoofed — always check carefully</li>
+  </ul>
+  <h3>60-second micro-lesson</h3>
+  <p>Step 1: Pause. Step 2: Check sender and hover link. Step 3: Verify by other channels (call).</p>
+  <h4>Quick check</h4>
+  <form method="post" action="/complete-quiz">
+    <label><input type="radio" name="q" value="sender"> The sender looked odd</label><br>
+    <label><input type="radio" name="q" value="link"> The link was strange</label><br>
+    <label><input type="radio" name="q" value="urgency"> Message used urgent language</label><br><br>
+    <button type="submit">Submit — show me more tips</button>
+  </form>
+</body>
+</html>
